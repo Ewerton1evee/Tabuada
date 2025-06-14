@@ -1,10 +1,10 @@
-function calcular(index) {
- for (let i = 1; i <= 10; i++) {
-  let resultado = index * i;
-  console.log(index + " x " + i + " = " + resultado);
- }
+function tab(index1) {
+     for (var variavel = 1; variavel <= index1; variavel++) {
+        for (var i = 1; i <= 10; i++) {
+            let resultado = variavel * i;
+            console.log(variavel + " X " + i + " = " + resultado);
+        }
+        console.log("");
+    }
 }
-for (let o = 1; o <= 10; o++) {
- calcular(o)
- console.log("");
-}
+tab(94)
